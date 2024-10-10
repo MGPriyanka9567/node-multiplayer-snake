@@ -1,0 +1,78 @@
+Oct 09, 2024 1:08:03 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /home/priyanka/Desktop/app-test/node-multiplayer-snake/remoting as a remoting work directory
+Oct 09, 2024 1:08:03 PM org.jenkinsci.remoting.engine.WorkDirManager setupLogging
+INFO: Both error and output logs will be printed to /home/priyanka/Desktop/app-test/node-multiplayer-snake/remoting
+Oct 09, 2024 1:08:03 PM hudson.remoting.Launcher createEngine
+INFO: Setting up agent: ubuntu
+Oct 09, 2024 1:08:03 PM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3248.3250.v3277a_8e88c9b_
+Oct 09, 2024 1:08:03 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /home/priyanka/Desktop/app-test/node-multiplayer-snake/remoting as a remoting work directory
+Oct 09, 2024 1:08:04 PM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among [http://192.168.56.101/]
+Oct 09, 2024 1:08:04 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Oct 09, 2024 1:08:04 PM hudson.remoting.Launcher$CuiListener status
+INFO: Agent discovery successful
+  Agent address: 192.168.56.101
+  Agent port:    50000
+  Identity:      f3:2f:df:8b:4a:d9:d3:01:21:68:7c:26:29:3c:9d:bb
+Oct 09, 2024 1:08:05 PM hudson.remoting.Launcher$CuiListener status
+INFO: Handshaking
+Oct 09, 2024 1:08:05 PM hudson.remoting.Launcher$CuiListener status
+INFO: Connecting to 192.168.56.101:50000
+Oct 09, 2024 1:08:05 PM hudson.remoting.Launcher$CuiListener status
+INFO: Server reports protocol JNLP4-connect-proxy not supported, skipping
+Oct 09, 2024 1:08:05 PM hudson.remoting.Launcher$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Oct 09, 2024 1:08:05 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+Oct 09, 2024 1:08:05 PM hudson.remoting.Launcher$CuiListener status
+INFO: Remote identity confirmed: f3:2f:df:8b:4a:d9:d3:01:21:68:7c:26:29:3c:9d:bb
+Oct 09, 2024 1:08:06 PM hudson.remoting.Launcher$CuiListener status
+INFO: Connected
+Oct 10, 2024 12:03:43 PM hudson.slaves.ChannelPinger$1 onDead
+INFO: Ping failed. Terminating the channel JNLP4-connect connection to 192.168.56.101/192.168.56.101:50000.
+java.util.concurrent.TimeoutException: Ping started at 1728541783352 hasn't completed by 1728542023367
+	at hudson.remoting.PingThread.ping(PingThread.java:132)
+	at hudson.remoting.PingThread.run(PingThread.java:88)
+
+Oct 10, 2024 12:03:44 PM hudson.remoting.Launcher$CuiListener status
+INFO: Terminated
+Oct 10, 2024 12:03:54 PM hudson.remoting.Launcher$CuiListener status
+INFO: Performing onReconnect operation.
+Oct 10, 2024 12:03:54 PM jenkins.slaves.restarter.JnlpSlaveRestarterInstaller$EngineListenerAdapterImpl onReconnect
+INFO: Restarting agent via jenkins.slaves.restarter.UnixSlaveRestarter@5f0ce963
+Oct 10, 2024 12:03:58 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /home/priyanka/Desktop/app-test/node-multiplayer-snake/remoting as a remoting work directory
+Oct 10, 2024 12:03:58 PM org.jenkinsci.remoting.engine.WorkDirManager setupLogging
+INFO: Both error and output logs will be printed to /home/priyanka/Desktop/app-test/node-multiplayer-snake/remoting
+Oct 10, 2024 12:03:58 PM hudson.remoting.Launcher createEngine
+INFO: Setting up agent: ubuntu
+Oct 10, 2024 12:03:58 PM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3248.3250.v3277a_8e88c9b_
+Oct 10, 2024 12:03:58 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /home/priyanka/Desktop/app-test/node-multiplayer-snake/remoting as a remoting work directory
+Oct 10, 2024 12:03:59 PM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among [http://192.168.56.101/]
+Oct 10, 2024 12:03:59 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Oct 10, 2024 12:03:59 PM hudson.remoting.Launcher$CuiListener status
+INFO: Agent discovery successful
+  Agent address: 192.168.56.101
+  Agent port:    50000
+  Identity:      f3:2f:df:8b:4a:d9:d3:01:21:68:7c:26:29:3c:9d:bb
+Oct 10, 2024 12:03:59 PM hudson.remoting.Launcher$CuiListener status
+INFO: Handshaking
+Oct 10, 2024 12:03:59 PM hudson.remoting.Launcher$CuiListener status
+INFO: Connecting to 192.168.56.101:50000
+Oct 10, 2024 12:03:59 PM hudson.remoting.Launcher$CuiListener status
+INFO: Server reports protocol JNLP4-connect-proxy not supported, skipping
+Oct 10, 2024 12:03:59 PM hudson.remoting.Launcher$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Oct 10, 2024 12:03:59 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+Oct 10, 2024 12:03:59 PM hudson.remoting.Launcher$CuiListener status
+INFO: Remote identity confirmed: f3:2f:df:8b:4a:d9:d3:01:21:68:7c:26:29:3c:9d:bb
+Oct 10, 2024 12:04:00 PM hudson.remoting.Launcher$CuiListener status
+INFO: Connected
