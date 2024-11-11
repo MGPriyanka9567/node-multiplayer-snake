@@ -14,14 +14,14 @@ node ('Ubuntu-app-agent'){
          * docker build on the command line */
         app = docker.build("mgpriyanka028/snake")
     }
-    
+    /*
     stage('Post-to-dockerhub') {
     
      docker.withRegistry('https://registry.hub.docker.com', 'training_creds') {
             app.push("latest")
         			}
          }
-         
+       */  
     /*stage('SECURITY-IMAGE-SCANNER'){
         build 'SECURITY-IMAGE-SCANNER-AQUAMICROSCANNER'
     }*/
