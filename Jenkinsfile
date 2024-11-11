@@ -17,7 +17,7 @@ node ('Ubuntu-app-agent'){
     stage('Post-to-dockerhub') {
     
      docker.withRegistry('https://registry.hub.docker.com', 'training_creds') {
-            app.push("v1")
+            app.push("latest")
         			}
          }
     /*stage('SECURITY-IMAGE-SCANNER'){
